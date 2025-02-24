@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Página Profissional</title>
+</head>
+<body>
+    <div class="container">
+        <header class="py-4">
+            <h1 class="text-center">Meu Site</h1>
+            <nav class="nav justify-content-center">
+                <a href="#projetos" class="nav-link">Projetos</a>
+                <a href="#contato" class="nav-link">Contato</a>
+            </nav>
+        </header>
+
+        <section id="sobremim" class="py-5">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center"> 
+                    <img src="img/IMG_20250220_145547.jpg" alt="Foto de Felipe Simões Machado" class="img-fluid rounded-circle shadow mx-auto">
+                </div>
+                <div class="col-md-6 text-left">
+                    <h2 class="text-center">Descrição Profissional</h2>
+                    <p>Olá, você está olhando para a minha página profissional. Me chamo Felipe Simões Machado e aqui está uma breve descrição e demonstração de alguns projetos que possuo no portfólio.</p>
+                    <p>Tenho o intuito de construir uma carreira profissional com novas ideias e aprendizados.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="py-5">
+            <h2 class="text-center">Principais Projetos</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <a href="Uppet sistem" class="btn btn-light projeto">
+                        <h3>Up Pet Sistem</h3>
+                    </a>
+                    <p>Um projeto baseado em algumas ideias e problemas de clínica veterinária e loja pet.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="PáginaBlog/index.html" class="btn btn-light projeto">
+                        <h3>Página Blog</h3>
+                    </a>
+                    <p>Um breve projeto sobre uma página de carros com descrições de mustangs.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="Tabela_Periodica.xlsx" class="btn btn-light projeto" download>
+                        <h3>Tabela Periódica</h3>
+                    </a>
+                    <p>Um trabalho de uma feira de Ciências realizado por um layout de planilha.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="py-5">
+            <h2 class="text-center">Contato</h2>
+            <form>
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Seu nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Seu email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea class="form-control" id="mensagem" rows="3" placeholder="Sua mensagem" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </section>
+
+        <footer class="py-3">
+            <p class="text-center">&copy; 2025 Felipe Simões Machado. Todos os direitos reservados.</p>
+            <div class="text-center">
+                <a href="#" class="btn btn-link">Facebook</a>
+                <a href="#" class="btn btn-link">Twitter</a>
+                <a href="#" class="btn btn-link">LinkedIn</a>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
